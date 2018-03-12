@@ -1,0 +1,23 @@
+deals = [
+        {'name': 'id', 'type': 'BIGINT'},
+        {'name': 'age', 'type': 'INT'},
+        {'name': 'stage_updated_time', 'type': 'TIMESTAMP WITH TIME ZONE'},
+        {'name': 'probability', 'type': 'FLOAT'},
+        {'name': 'expected_close', 'type': 'TIMESTAMP WITH TIME ZONE'},
+        {'name': 'amount', 'type': 'FLOAT'},
+        {'name': 'links_tasks', 'type': 'VARCHAR'},
+        {'name': 'links_conversations', 'type': 'VARCHAR'},
+        {'name': 'links_document_associations', 'type': 'VARCHAR'},
+        {'name': 'links_notes', 'type': 'VARCHAR'},
+        {'name': 'links_appointments', 'type': 'VARCHAR'},
+        {'name': 'custom_fields', 'type': 'VARCHAR'},
+        {'name': 'closed_date', 'type': 'TIMESTAMP WITH TIME ZONE'},
+        {'name': 'web_form_id', 'type': 'VARCHAR'},
+        {'name': 'active_sales_sequences', 'type': 'VARCHAR'},
+        {'name': 'recent_note', 'type': 'VARCHAR'},
+        {'name': 'deal_pipeline_id', 'type': 'INT'},
+        {'name': 'name', 'type': 'VARCHAR'},
+        {'name': 'updated_at', 'type': 'TIMESTAMP WITH TIME ZONE'},
+        {'name': 'created_at', 'type': 'TIMESTAMP WITH TIME ZONE'},
+        {'name': 'completed_sales_sequences', 'type': 'VARCHAR'}
+    ]
