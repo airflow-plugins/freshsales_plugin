@@ -186,8 +186,9 @@ class FreshsalesToS3Operator(BaseOperator, SkipMixin):
                                           str(view_id),
                                           sub_object])).json()
 
-            if not response.get('meta').get('total'):
-                continue
+            if response.get('meta', None):
+                if not response.get('meta').get('total'):
+                    continue
 
             results.extend(response[object_key])
 
